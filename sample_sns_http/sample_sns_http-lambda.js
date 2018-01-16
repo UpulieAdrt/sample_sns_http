@@ -11,7 +11,7 @@ exports.handler = function (event, context, callback) {
 		.then(data => {
 			// your code goes here
 
-			console.log("success");
+			console.log("success" ,data);
 		})
 		.catch(err => {
 			// error handling goes here
